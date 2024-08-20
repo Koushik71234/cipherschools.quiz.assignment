@@ -1,0 +1,73 @@
+/* Apply the background image to the entire body */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./assets/image.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style the signup form */
+  .signup-form {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better readability */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 100px auto; /* Center the form horizontally and add some top margin */
+    text-align: center;
+  }
+  
+  .signup-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .signup-form ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .signup-form li {
+    margin-bottom: 15px;
+  }
+  
+  .signup-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .signup-form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .signup-form .signup-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .signup-form .signup-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .login-link {
+    font-size: 14px;
+  }
+  
+  .login-link a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .login-link a:hover {
+    text-decoration: underline;
+  }
+  
