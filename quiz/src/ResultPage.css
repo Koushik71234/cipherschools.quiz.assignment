@@ -1,0 +1,44 @@
+.result-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f8f8f8;
+}
+
+.result-message {
+  text-align: center;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.result-message h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #28a745; /* Green color to indicate success */
+}
+
+.result-message p {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+
+.result-icon {
+  margin-bottom: 20px;
+}
+
+.home-button {
+  background-color: #007bff;
+  color: #ffffff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.home-button:hover {
+  background-color: #0056b3;
+}

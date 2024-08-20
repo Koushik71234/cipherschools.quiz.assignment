@@ -1,0 +1,82 @@
+.quiz-page {
+  padding: 20px;
+  overflow: auto;
+  height: 100vh;
+}
+
+.camera-preview {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  width: 150px;
+  height: 150px;
+  border: 2px solid black;
+  background-color: black;
+  z-index: 1000;
+}
+
+.camera-preview video {
+  width: 100%;
+  height: 100%;
+}
+
+.questions-container {
+  margin-left: 180px;
+  text-align: center;
+}
+
+.question-item {
+  margin: 20px auto;
+  width: 60%;
+  max-width: 600px; /* Set a maximum width for the question container */
+  min-width: 600px; /* Set a minimum width for the question container */
+  background-color: #f8f8f8;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: left; /* Align the content to the left */
+}
+
+.question-item p {
+  font-size: 18px; /* Set a fixed font size for the question */
+  margin-bottom: 20px;
+}
+
+.option-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.option-item input[type="radio"] {
+  margin-right: 10px;
+}
+
+.option-item label {
+  font-size: 16px; /* Set a fixed font size for the options */
+}
+
+.navigation-buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.navigation-buttons button {
+  margin: 0 10px;
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.navigation-buttons button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.navigation-buttons button:last-child {
+  background-color: #28a745;
+}

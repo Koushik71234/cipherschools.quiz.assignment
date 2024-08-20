@@ -1,0 +1,84 @@
+.auth-page {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .auth-page h1 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .permissions-container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .permissions-status {
+    margin-bottom: 20px;
+  }
+  
+  .permission-item {
+    font-size: 18px;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .permission-item.granted {
+    background-color: #e7f9e7;
+    color: #28a745;
+  }
+  
+  .permission-item.denied {
+    background-color: #fdeaea;
+    color: #dc3545;
+  }
+  
+  .camera-preview-container {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: 150px;
+    height: 150px;
+    border: 2px solid black;
+    background-color: black;
+    z-index: 1000; /* Ensure it's on top of other content */
+  }
+  
+  .camera-preview {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+  }
+  
+  .next-button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-top: 20px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .next-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .error-message {
+    color: #dc3545;
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  

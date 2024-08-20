@@ -1,0 +1,75 @@
+/* Apply the background image to the entire body */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('./assets/image.png') no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  /* Style the login form */
+  .login-form {
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for better readability */
+    color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 400px;
+    margin: 100px auto; /* Center the form horizontally and add some top margin */
+    text-align: center;
+  }
+  
+  .login-form h2 {
+    margin-bottom: 20px;
+  }
+  
+  .login-form ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .login-form li {
+    margin-bottom: 15px;
+  }
+  
+  .login-form label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .login-form input {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  .login-form .login-btn {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .login-form .login-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  .forgot-signup {
+    font-size: 14px;
+  }
+  
+  .forgot-password,
+  .signup-link {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .forgot-password:hover,
+  .signup-link:hover {
+    text-decoration: underline;
+  }
+  
